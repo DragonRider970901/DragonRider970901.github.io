@@ -1,32 +1,124 @@
 <!DOCTYPE html>
+
 <head>
-    <link rel ="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Prompt:wght@600&family=Space+Mono&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:wght@300;500&family=Prompt:wght@600&family=Space+Mono&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Prompt:wght@600&family=Space+Mono&display=swap" rel="stylesheet">
-    <title>FitBerry</title>
+  <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="./resources/css/mystyle.css">
+  <link rel="stylesheet" href="./resources/css/tablet.css">
+  <link rel="stylesheet" href="."
+  <!--<link rel="stylesheet" href="./resources/css/reset.css">-->
+  <meta name="viewport" content="width=device-width , initial-scale=1"charset="UTF-8">
 </head>
 <body>
-    <script src="controller.js"></script>
-    <nav class="menu">
-        <h3 class="option"><a href="workouts.html">workouts</a></h3>
-        <h3 class="option"><a href="recipes.html">recipes</a></h3>
-        <h3 class="option">language</h3>
-    </nav>
-    <h2 class="title">Recently Added Recipe:</h2>
-    <div class="newRecipeContainer">
-        <img src="./RecipePhotos/HagridCookies4.jpg"  width="400px" />
-        <h2 id="recipeTitle">Hagrid Cranberry Cookies</h2>
-        <ul>
-            <li>Easy to make.</li>
-            <li><p>Confort food (ideal for a cosy fall evening spent inside while drinking a warm cup of tea and watching your favorite TV show!</p></li>
-            <li>Also great with a delicious cup of coffee in the morning.</li>
-            <li><p>Even two cookies are enough to make you feel full (and happy!) :)</p></li>
+  <!-- Header -->
+  <header>
+    <div class="content" >
+      <a href="index.html" class="logo">Fotomatic</a>
+      <div class="desktop menu" >
+        <ul class="options">
+          <li class="middleli"><a href="#">Product detail</a></li>
+          <li class="middleli"><a href="#">About us</a></li>
+          <li class="instagram"><a href="https://www.instagram.com/">Follow us <img class="icon" src="./resources/images/instagram.png"></a></li>
+          <li><a href="#" class="button">Join us</a></li>
         </ul>
-          
+      </div>
+      <nav class="mobile">
+        <ul class="options">
+          <li><a href="#"><img src="./resources/images/ic-logo.svg"></a></li>
+          <li><a href="#"><img src="./resources/images/ic-product-detail.svg"></a></li>
+          <li><a href="#"><img src="./resources/images/ic-about-us.svg"></a></li>
+          <li><a href="#" class="button">Join us</a></li>
+        </ul>
+      </nav>
     </div>
-    <h2 class="title">New Post:</h2>
-    <div class="newBlogContainer">
+  </header>
 
+  <!-- Main Content -->
+  <div class="main-content">
+
+    <!-- Sign Up Section -->
+    <div id="sign-up-section" class="banner">
+      <div id="sign-up-cta">
+        <div class="content center">
+          <div class="header">
+            <h2 class="cursive">Instant</h2>
+            <h1 class="striking">FORMAT CAMERA</h1>
+          </div>
+          <div class="email">
+            <div class = "emailp"><span class="span">
+              Email us to request a demo and be in our waiting list for the <strong>Febuary 2017</strong> release!
+            </span></div>
+            <button>Join the waiting list</button>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <!-- Features Section -->
+    <div id="features-section">
+      <div class="feature left">
+        <div class="center">
+          <div class="image-container">
+            <img src="./resources/images/feature-1.png" />
+          </div>
+          <div class="content">
+            <h2>Advanced, automatic, instant</h2>
+            <h3>Shutter speed, apperture and flash output adjust automatically</h3>
+          </div>
+        </div>
+      </div>
+      <div class="feature right">
+        <div class="center">
+          <div class="image-container">
+            <img src="./resources/images/feature-2.png" />
+          </div>
+          <div class="content">
+            <h2>Beautifully crafted inside-out</h2>
+            <h3>From the paint outside to the tiny screw inside, Fotomatic is crafted with love and 20-year of expertise</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Filters Section -->
+    <div id="filters-section">
+      <div class="content center">
+        <h2>Over 20+ filters to choose from</h2>
+        <h3>Feed your creativity with 20 different filter designed by our eclectic in-house photographers!</h3>
+      </div>
+      <div class="images-container">
+        <div class="image-container firstfilter">
+          <img src="./resources/images/filter-1.png" />
+        </div>
+        <div class="image-container middle">
+          <img src="./resources/images/filter-2.png" />
+        </div>
+        <div class="image-container middle">
+          <img src="./resources/images/filter-3.png" />
+        </div>
+        <div class="image-container extra">
+          <img src="./resources/images/filter-4.png" />
+        </div>
+      </div>
+    </div>
+
+    
+    <div id="quotes-section">
+      <div class="content center">
+        <span class="quote">“It’s truly something that could create a brand new photography Renaissance”</span>
+        <img class="quote-citation" src="./resources/images/photography-logo.png" />
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="content">
+        <span class="copyright">© 2016  Fotomatic, All Rights Reserved</span>
+        <span class="location">Designed in NYC</span>
+      </div>
+    </footer>
+
+  </div>
 </body>
+</html>
