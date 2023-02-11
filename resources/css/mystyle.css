@@ -26,6 +26,11 @@ body
         
     }
 
+    .desktop .options .button
+    {
+        display: none;
+    }
+        
     header {
         height: 85px;
         width: 100%;
