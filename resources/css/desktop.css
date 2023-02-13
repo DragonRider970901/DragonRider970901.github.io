@@ -1,0 +1,194 @@
+
+/*      UNIVERSAL      */
+
+
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+body 
+{margin: 0px 0px;}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 2561px)
+{
+
+    /*      HEADER FOR DESKTOP      */
+
+
+    header .content .tablet
+    {
+        display: none;
+    }
+
+    header .content .mobile
+    {
+        display: none;
+    }
+
+    header .content
+    {
+        height: 85px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    header .content .logo
+    {
+        font-size: 24px;
+        text-decoration: none;
+        color: #4a4a4a;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 400;
+    }
+    header .content .menu .options
+    {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+
+
+
+    header .content .menu .options li a
+    {
+        text-decoration: none;
+        font-size: 16px;
+        color: #4a4a4a;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+
+    header .content .options .middleli
+    {
+        margin-right: 48px;
+    }
+    header .content .menu .options .instagram
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        height: 16px;
+        
+    }
+    header .content .menu .options .instagram img
+    {
+        width: 16px;
+        height: 16px;
+        float: right;
+        margin-left: 5px;
+    } 
+
+
+
+    /*      DESKTOP MAIN CONTENT      */
+
+    .main-content .banner
+    {
+        background-image: url("./banner-landingpage.jpg");
+        background-size: cover;
+        height: 680px;
+        width: 100%;
+        position: relative;
+    }
+
+ 
+    #sign-up-cta
+    {
+        position: relative;
+        background-color: #9dc20a;  
+        left: 100px;
+        top: 170px;
+        width: 40%;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #979797;
+        border-radius: 4px;
+    }
+
+    .main-content .banner .content
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-content .banner .content .header
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-content .banner .content .header .cursive
+    {
+        font-family: 'Damion', cursive;
+        font-size: 35px;
+        font-weight: 300;
+        color: white;
+        margin-top: 32px;
+        margin-bottom: 8px;
+    }
+
+    .main-content .banner .content .header .striking
+    {
+        font-family: 'Rubik', sans-serif;
+        font-size: 50px;
+        font-weight: 400;
+        color: white;
+        line-height: 1.4;
+        margin-top: 0px;
+        margin-bottom: 12px;
+    }
+
+    .main-content .banner .content .email
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-content .banner .content .email .emailp
+    {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.4;
+        font-weight: 300;
+        margin-top: 0px;
+        margin-bottom: 26px;
+        text-align: center;
+        width: 70%;
+    }
+
+    .main-content .banner .content .email .button
+    {
+        color: white;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        line-height: 1.4;
+        width: 408px;
+        height: 64px;
+        background-color: #4a4a4a;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 56px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    
+}
