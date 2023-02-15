@@ -241,7 +241,7 @@ body
         width: 90%;
         height: 100%;
         top: 32px;
-
+        max-width: 600px;
     }
     .feature .image-container img
     {
